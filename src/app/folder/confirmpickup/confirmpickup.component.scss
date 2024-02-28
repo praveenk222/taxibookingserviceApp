@@ -1,0 +1,53 @@
+capacitor-google-map{
+    width: 350px;
+    height: 400px;
+}
+.custom-h4 {
+    font-size: 1.6rem; 
+    font-weight: bold;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.custom-card {
+    background-color: #f4f4f4; /* Set the background color */
+    border-radius: 10px; /* Set the border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    padding: 10px; /* Add padding */
+  }
+
+  /* Style the card title */
+  ion-card-title {
+    color: #333; /* Set the text color */
+    font-size: 1.2rem; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+  }
+  
+  /* Style the card content */
+  ion-card-content {
+    color: #666; /* Set the text color */
+    font-size: 1rem; /* Set the font size */
+    margin-bottom: 50px;
+    
+  }
+  .last{
+    background-color:orange ;
+    color: white;
+    // padding: 10px
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  // input{
+  //   color: green;
+  // }
+
+// // styles.scss
+
+$custom-radio-color: rgba(27, 73, 27, 0.354); // Replace with your custom color
+
+ion-radio {
+  --color: $custom-radio-color;
+  
+  
+}
