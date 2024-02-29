@@ -3,7 +3,7 @@ import { GoogleMap, Marker } from '@capacitor/google-maps';
 import { Geolocation, GeolocationPlugin } from '@capacitor/geolocation';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormBuilder, FormGroup, NG_VALUE_ACCESSOR } from '@angular/forms';
-
+// import { InfiniteScrollCustomEvent } from '@ionic/angular';
 
 @Component({
   selector: 'app-chooseride',
@@ -25,10 +25,11 @@ export class ChooserideComponent  implements OnInit {
       charges:50
 
      }
-     
+
 
   pincodeForm!:FormGroup;
   useraddress:any=null;
+  items: any;
   constructor(private http:HttpClient,private pf:FormBuilder) { 
 
     this.pincodeForm=this.pf.group({
@@ -39,6 +40,10 @@ export class ChooserideComponent  implements OnInit {
   ngOnInit() {
     this.printCurrentPosition()
     this.createMap();
+    // const items = [];
+    // for (let i = 1; i < 6; i++) {
+    //   this.items.push(`Item ${i}`);
+    // }
     
   }
   ionViewDidEnter()
@@ -105,10 +110,5 @@ var coordinates = Geolocation.getCurrentPosition().then((resp) => {
 
 console.log(coordinates)
 };
-pricelist=[
-  {name:"baba"},
-  {name:"baba"},
-  {name:"baba"},
-]
 
 }

@@ -3,11 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { FolderPage } from './folder.page';
 import { ChooserideComponent } from './chooseride/chooseride.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: ChooserideComponent
+    component: HomeComponent
   }
 ];
 

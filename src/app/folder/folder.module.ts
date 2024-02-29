@@ -8,6 +8,7 @@ import { FolderPageRoutingModule } from './folder-routing.module';
 
 import { FolderPage } from './folder.page';
 import { ChooserideComponent } from './chooseride/chooseride.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,7 @@ import { ChooserideComponent } from './chooseride/chooseride.component';
     IonicModule,
     FolderPageRoutingModule
   ],
-  declarations: [FolderPage,ChooserideComponent],
+  declarations: [FolderPage,ChooserideComponent,HomeComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 
 })
