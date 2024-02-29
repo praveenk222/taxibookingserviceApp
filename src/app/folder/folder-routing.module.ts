@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { FolderPage } from './folder.page';
+import { FindyourrideComponent } from '../findyourride/findyourride.component';
+import { ContinuerideComponent } from '../continueride/continueride.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: FolderPage
+    component:FindyourrideComponent
   }
 ];
 
