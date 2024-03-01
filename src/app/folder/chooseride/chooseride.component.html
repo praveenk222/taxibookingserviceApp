@@ -1,52 +1,50 @@
+<ion-icon name="arrow-back-circle"></ion-icon>
 <capacitor-google-map #map ></capacitor-google-map>
-<ion-item >
+<ion-item>
   <ion-title>
     <h1>Choose a Ride</h1>
   </ion-title>
 </ion-item>
+  <ion-card style="height:50px;">
+    <img src="\assets\Yaar.jpg" alt="" style="height:50px;width: 40px; margin-left: 40px;"><ion-title>Yaary</ion-title>
+  </ion-card>
+  
+<ion-content class="ion-padding">
 <ion-list>
   <ion-item class="grid">
     <ion-thumbnail ion-margin-end>
       <ion-img src="https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/3-wheelers-and-qute/re/diesel/eco-green/00.png"></ion-img>
     </ion-thumbnail>
     <ion-label>Auto</ion-label>
-    <ion-label>56</ion-label>
+    <ion-label><ion-icon name="rupee" size="large" color="primary"></ion-icon>
+      56</ion-label>
   </ion-item>
-  <ion-item>
+  <ion-item class="grid">
     <ion-thumbnail>
       <ion-img src="https://cdn1.vectorstock.com/i/1000x1000/71/10/blue-car-vehicle-color-isolated-icon-vector-35127110.jpg" style="height:40px;width:60px;"></ion-img>
     </ion-thumbnail>
     <ion-label class="ion-text-wrap">Hatch</ion-label>
     <ion-label>120</ion-label>
   </ion-item>
-  <ion-item>
+  <ion-item class="grid">
     <ion-thumbnail ion-margin-end>
       <ion-img src="\assets\sedan.png"></ion-img>
     </ion-thumbnail>
     <ion-label>Sedan</ion-label>
     <ion-label>160</ion-label>
   </ion-item>
-  <ion-item>
+  <ion-item class="grid">
     <ion-thumbnail ion-margin-end>
       <ion-img src="\assets\car.png"></ion-img>
     </ion-thumbnail>
     <ion-label>SUV</ion-label>
     <ion-label>200</ion-label>
-  </ion-item>
-  
-      <!-- <ion-item *ngFor="let item of items; let index">
-        <ion-avatar slot="start">
-          <img [src]="'https://picsum.photos/80/80?random=' + index" alt="avatar" />
-        </ion-avatar>
-        <ion-label>{{ item }}</ion-label>
-      </ion-item>
-    </ion-list>
-    <ion-infinite-scroll>
-      <ion-infinite-scroll-content loadingText="Please wait..." loadingSpinner="bubbles"></ion-infinite-scroll-content>
-    </ion-infinite-scroll>
-  </ion-content> -->
-  <button class="but">Book For Auto</button>
+  </ion-item> 
 </ion-list>
+</ion-content>
+<button class="but">Book For Auto</button>
+
+
 
 
 

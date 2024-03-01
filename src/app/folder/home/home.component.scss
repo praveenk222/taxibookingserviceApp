@@ -7,5 +7,7 @@ ion-card-subtitle{
 }
 h3{
     margin-left: 20px;
-    padding: 10px;
+    padding: 15px;
+    font-weight: bold;
+    font-display: random($limit: 1);
 }
