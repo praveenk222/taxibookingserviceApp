@@ -15,6 +15,10 @@ const routes: Routes = [
     path:'findride',
     component:FindyourrideComponent
   }
+  ,{
+    path:'continueride',
+    component:ContinuerideComponent
+  }
 ];
 
 @NgModule({
