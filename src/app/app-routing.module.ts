@@ -14,6 +14,10 @@ const routes: Routes = [
     path: 'mybooking',
     loadChildren: () => import('./page/mybooking/mybooking.module').then( m => m.MybookingPageModule)
   },
+  {
+    path: 'myprofile',
+    loadChildren: () => import('./page/myprofile/myprofile.module').then( m => m.MyprofilePageModule)
+  },
 
   
 
