@@ -45,30 +45,7 @@ export class AppComponent {
     constructor(private _bh:BookingService,private element: ElementRef,private userdata: UserData,private http:HttpClient,private route:Router,
       // private authService: SocialAuthService, 
       public navCtrl: NavController,private geolocation: Geolocation ) {
-      this.getbranchesByBID();
-      this.userdata.getuser().then((res:any) => {
-        if (res !== null) {
   
-          this.logindata = res;
-          console.log(this.logindata )
-          this.username = res.FirstName + ' ' + res.LastName;
-       
-        }
-      })
-      this.userdata.getId('userlocation').then((res:any) => {
-        if (res !== null) {
-  
-          this.useraddress = res;
-          console.log(this.useraddress)
-        }
-      })
-      this.userdata.getuser().then(res => {
-        if (res !== null) {
-  
-          this.logindata = res;
-          this.route.navigateByUrl('/book')
-        }
-        })
   
     }
     ngOnInit() {
