@@ -25,6 +25,10 @@ const routes: Routes = [
   {  
     path:'confirmpickup',
     component:ConfirmpickupComponent
+  },
+  {  
+    path:'chooseride',
+    component:ChooserideComponent
   }
 ];
 

@@ -1,5 +1,5 @@
 capacitor-google-map{
-    width: 380px;
+    width:100%;
     height: 450px;
     margin-left: 2 0px;
     position:fixed;
@@ -9,16 +9,34 @@ ion-label{
 }
 .grid{
     background-color: whitesmoke;
+    
+}
+.grid:hover{
+    color: orange;
+    border-color: orange;
+    background-color: red;
+    border: 1px solid orange;
+    border-radius: 5px;
+    
 }
 h1{
     text-align: center;
 }
 .but{
-  height: 30px;
-  width: 380px;
+  height: 40px;
+  width: 350px;
   color:white;
   background-color:orange;
   border-radius: 5px;
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
-
- 
+ion-content{
+    height: 50px;
+    width: 100%;
+}
+ion-icon {
+    height: 40px;
+    width: 50px;
+    
+}
