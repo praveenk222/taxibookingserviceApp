@@ -10,7 +10,11 @@ const routes: Routes = [
   {  
     path: '',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },  {
+    path: 'mybooking',
+    loadChildren: () => import('./page/mybooking/mybooking.module').then( m => m.MybookingPageModule)
   },
+
   
 
   
