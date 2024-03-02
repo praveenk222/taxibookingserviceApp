@@ -12,17 +12,13 @@ const routes: Routes = [
     path: '',
     component: HomeComponent
   },{
-    path:'findride',
-    component:FindyourrideComponent
-  }
-  ,{
+  
     path:'continueride',
     component:ContinuerideComponent
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
 export class FolderPageRoutingModule {}

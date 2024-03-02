@@ -28,5 +28,6 @@ import { MAT_SNACK_BAR_DEFAULT_OPTIONS } from '@angular/material/snack-bar';
     verticalPosition: 'bottom',} },
   ],
   bootstrap: [AppComponent],
+
 })
 export class AppModule {}
