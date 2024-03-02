@@ -7,20 +7,24 @@ import { HomeComponent } from './home/home.component';
 import { FindyourrideComponent } from '../findyourride/findyourride.component';
 import { ContinuerideComponent } from '../continueride/continueride.component';
 import { WheretoComponent } from './whereto/whereto.component';
+import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent
   },
-  {
-  
+  {  
     path:'continueride',
     component:ContinuerideComponent
   },
   {  
     path:'location',
     component:WheretoComponent
+  },
+  {  
+    path:'confirmpickup',
+    component:ConfirmpickupComponent
   }
 ];
 
