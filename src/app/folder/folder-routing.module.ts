@@ -11,7 +11,7 @@ import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component'
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomeComponent
   },
   {  
@@ -27,7 +27,7 @@ const routes: Routes = [
     component:ConfirmpickupComponent
   },
   {  
-    path:'chooseride',
+    path:'',
     component:ChooserideComponent
   }
 ];
