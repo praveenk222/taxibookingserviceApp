@@ -1,0 +1,13 @@
+ion-card{
+height: 900px;
+width: 300px;
+}
+ion-card-subtitle{
+    margin-left: 30px;
+}
+h3{
+    margin-left: 20px;
+    padding: 15px;
+    font-weight: bold;
+    font-display: random($limit: 1);
+}

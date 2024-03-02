@@ -7,12 +7,14 @@ const routes: Routes = [
     redirectTo: 'folder/Inbox',
     pathMatch: 'full'
   },
-  {
-    path: 'folder/:id',
+  {  
+    path: '',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },
+  
 
-
+  
+  
 
 ];
 

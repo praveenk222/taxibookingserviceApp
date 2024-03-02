@@ -7,8 +7,12 @@ import { IonicModule } from '@ionic/angular';
 import { FolderPageRoutingModule } from './folder-routing.module';
 
 import { FolderPage } from './folder.page';
-import { HomepageComponent } from './homepage/homepage.component';
-import { NearhubComponent } from './homepage/nearhub/nearhub.component';
+import { ChooserideComponent } from './chooseride/chooseride.component';
+import { HomeComponent } from './home/home.component';
+import { FindyourrideComponent } from '../findyourride/findyourride.component';
+import { ContinuerideComponent } from '../continueride/continueride.component';
+import { WheretoComponent } from './whereto/whereto.component';
+import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 
 @NgModule({
   imports: [
@@ -16,9 +20,15 @@ import { NearhubComponent } from './homepage/nearhub/nearhub.component';
     FormsModule,
     IonicModule,
     FolderPageRoutingModule,
+  ],
+  declarations: [FolderPage,ChooserideComponent,HomeComponent,  FindyourrideComponent,
+    ContinuerideComponent,
+    WheretoComponent,
+    ConfirmpickupComponent,
 
   ],
-  declarations: [FolderPage,HomepageComponent,NearhubComponent],
+
+
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class FolderPageModule {}
