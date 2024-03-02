@@ -7,7 +7,9 @@ import { IonicModule } from '@ionic/angular';
 import { FolderPageRoutingModule } from './folder-routing.module';
 
 import { FolderPage } from './folder.page';
-import { FindyourrideComponent } from './findyourride/findyourride.component';
+import { ChooserideComponent } from './chooseride/chooseride.component';
+import { HomeComponent } from './home/home.component';
+import { FindyourrideComponent } from '../findyourride/findyourride.component';
 import { ContinuerideComponent } from '../continueride/continueride.component';
 
 @NgModule({
@@ -17,7 +19,10 @@ import { ContinuerideComponent } from '../continueride/continueride.component';
     IonicModule,
     FolderPageRoutingModule
   ],
-  declarations: [FolderPage,FindyourrideComponent,ContinuerideComponent],
+  declarations: [FolderPage,ChooserideComponent,HomeComponent,  FindyourrideComponent,
+    ContinuerideComponent],
+
+
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class FolderPageModule {}

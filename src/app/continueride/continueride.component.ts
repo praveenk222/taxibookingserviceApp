@@ -1,4 +1,3 @@
-
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { GoogleMap, Marker } from '@capacitor/google-maps';
 import { Geolocation, GeolocationPlugin } from '@capacitor/geolocation';
@@ -31,11 +30,11 @@ export class ContinuerideComponent  implements OnInit {
 ngOnInit() {
   this.printCurrentPosition()
   this.createMap();
-  
+
 }
 ionViewDidEnter()
 {
-  
+
 }
 apiKey = 'AIzaSyCU4W4iQLV5ydrW3UxZncI_JdLi1EsKH5A';
 
@@ -50,7 +49,6 @@ apiKey = 'AIzaSyCU4W4iQLV5ydrW3UxZncI_JdLi1EsKH5A';
     apiKey: this.apiKey,
     config: {
       center: {
-        
         lat:  15.500560,
         lng: 80.056600,
       },
