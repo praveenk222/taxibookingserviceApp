@@ -9,17 +9,26 @@ import { FolderPageRoutingModule } from './folder-routing.module';
 import { FolderPage } from './folder.page';
 import { ChooserideComponent } from './chooseride/chooseride.component';
 import { HomeComponent } from './home/home.component';
-import { DestinationComponent } from './destination/destination.component';
+import { FindyourrideComponent } from '../findyourride/findyourride.component';
+import { ContinuerideComponent } from '../continueride/continueride.component';
+import { WheretoComponent } from './whereto/whereto.component';
+import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FolderPageRoutingModule
+    FolderPageRoutingModule,
   ],
-  declarations: [FolderPage,ChooserideComponent,HomeComponent,DestinationComponent],
-  schemas:[CUSTOM_ELEMENTS_SCHEMA]
+  declarations: [FolderPage,ChooserideComponent,HomeComponent,  FindyourrideComponent,
+    ContinuerideComponent,
+    WheretoComponent,
+    ConfirmpickupComponent,
 
+  ],
+
+
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class FolderPageModule {}
