@@ -8,6 +8,7 @@ import { FindyourrideComponent } from '../findyourride/findyourride.component';
 import { ContinuerideComponent } from '../continueride/continueride.component';
 import { WheretoComponent } from './whereto/whereto.component';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
+import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 
 const routes: Routes = [
   {

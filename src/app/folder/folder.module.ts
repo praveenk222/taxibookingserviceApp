@@ -26,6 +26,7 @@ import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component'
     ContinuerideComponent,
     WheretoComponent,
     ConfirmpickupComponent,
+    RidedetailsComponent
 
   ],
 
