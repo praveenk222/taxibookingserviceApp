@@ -49,7 +49,6 @@ apiKey = 'AIzaSyCU4W4iQLV5ydrW3UxZncI_JdLi1EsKH5A';
     apiKey: this.apiKey,
     config: {
       center: {
-
         lat:  15.500560,
         lng: 80.056600,
       },
@@ -98,4 +97,3 @@ console.log(coordinates)
 };
 public progress = 0;
 }
-

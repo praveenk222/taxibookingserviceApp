@@ -3,6 +3,7 @@ import { GoogleMap, Marker } from '@capacitor/google-maps';
 import { Geolocation, GeolocationPlugin } from '@capacitor/geolocation';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormBuilder, FormGroup, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { IonContent } from '@ionic/angular';
 // import { InfiniteScrollCustomEvent } from '@ionic/angular';
 
 @Component({
@@ -15,18 +16,7 @@ export class ChooserideComponent  implements OnInit {
   lati :any;
   longi:any;
   loc:any;
-   Data:any;
-   imageURL = 'https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/3-wheelers-and-qute/re/diesel/eco-green/00.png';
-        type= "Auto";
-     charges=50;
-     product={
-      imageURL :'https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/3-wheelers-and-qute/re/diesel/eco-green/00.png',
-      type : "Auto",
-      charges:50
-
-     }
-
-
+  Data:any;
   pincodeForm!:FormGroup;
   useraddress:any=null;
   items: any;
@@ -110,5 +100,18 @@ var coordinates = Geolocation.getCurrentPosition().then((resp) => {
 
 console.log(coordinates)
 };
+@ViewChild(IonContent) content!: IonContent;
+
+scrollToBottom() {
+  
+  this.content.scrollToBottom(500);
+}
+
+scrollToTop() {
+  // Passing a duration to the method makes it so the scroll slowly
+  // goes to the top instead of instantly
+  this.content.scrollToTop(500);
+}
+
 
 }
