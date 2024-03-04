@@ -11,6 +11,7 @@ import { ChooserideComponent } from './chooseride/chooseride.component';
 import { HomeComponent } from './home/home.component';
 import { FindyourrideComponent } from '../findyourride/findyourride.component';
 import { ContinuerideComponent } from '../continueride/continueride.component';
+import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,7 @@ import { ContinuerideComponent } from '../continueride/continueride.component';
     FolderPageRoutingModule
   ],
   declarations: [FolderPage,ChooserideComponent,HomeComponent,  FindyourrideComponent,
-    ContinuerideComponent],
+    ContinuerideComponent,RidedetailsComponent],
 
 
   schemas:[CUSTOM_ELEMENTS_SCHEMA]

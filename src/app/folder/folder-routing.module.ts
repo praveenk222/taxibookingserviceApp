@@ -6,6 +6,7 @@ import { ChooserideComponent } from './chooseride/chooseride.component';
 import { HomeComponent } from './home/home.component';
 import { FindyourrideComponent } from '../findyourride/findyourride.component';
 import { ContinuerideComponent } from '../continueride/continueride.component';
+import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,11 @@ const routes: Routes = [
     path:'continueride',
     component:ContinuerideComponent
   }
+  ,{
+    path:'ridedetails',
+    component:RidedetailsComponent
+  }
+
 ];
 
 @NgModule({
