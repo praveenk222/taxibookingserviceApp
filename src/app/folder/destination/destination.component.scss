@@ -7,9 +7,38 @@ h1{
     margin-right: 40px;
     font-weight: bold;
 }
+.location{
+    width: 100%;
+    height: 130px;
+    margin-bottom:280px;
+   
+    
+}
 h3{
     margin-right: 90px;
     margin-top: -30px;
     text-align: center;
 
+}
+ion-label{
+    margin-right:-30px;
+}
+p{
+    margin-left: 70px;
+}
+.address{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 200px;
+}
+ion-item{
+    border-bottom:1px solid black;
+    
+}
+ion-button{
+    border-radius: 8px;
+}
+ion-label{
+    margin-left: 50px;
+    margin-top: 40px;
 }
