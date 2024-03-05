@@ -8,6 +8,8 @@ import { FolderPageRoutingModule } from './folder-routing.module';
 
 import { FolderPage } from './folder.page';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
+import { SearchComponent } from './search/search.component';
+import { WheretoComponent } from './whereto/whereto.component';
 
 @NgModule({
   imports: [
@@ -16,7 +18,7 @@ import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component'
     IonicModule,
     FolderPageRoutingModule
   ],
-  declarations: [FolderPage,ConfirmpickupComponent],
+  declarations: [FolderPage,ConfirmpickupComponent,SearchComponent,WheretoComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class FolderPageModule {}
