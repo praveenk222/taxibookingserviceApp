@@ -1,25 +1,24 @@
 <ion-content>
 <h1><ion-icon name="chevron-back-outline"></ion-icon> Rider details</h1>
-
-<ion-card>
-  <ion-card-header>
-    <table>
+<ion-card class="box" >
+  <ion-card-header >
+    <table class="tab">
       <tr>
         <th>Price per seat :</th>
-        <th>3000</th>
+        <th>3,000</th>
       </tr>
       <tr>
 
-        <td>Drip of location</td>
+        <td>  <ion-icon name="location-outline"></ion-icon> Dropoff Location</td>
         <td>lugbe</td>
       </tr>
       <tr>
-        <td>co-ride-free</td>
+        <td>  <ion-icon name="cash-outline"></ion-icon> Co-Ride Free</td>
         <td>500</td>
       </tr>
     </table>
-  </ion-card-header>
-  </ion-card>
+  </ion-card-header> 
+   </ion-card>
 
   <ion-segment value="Driver">
     <ion-segment-button value="Driver">
@@ -28,20 +27,22 @@
     <ion-segment-button value="Co-Riders">
       <ion-label>Co-Riders</ion-label>
     </ion-segment-button>
-    <!-- <ion-content> -->
+  </ion-segment>
+
+
+
     <ion-card class="profile">
-      <ion-card-header>
-        <ion-card-title>John Musa</ion-card-title>
+            <img alt="Silhouette of mountains" src="/assets/nature.jpg" style="width: 50px;height: 50px;border-radius: 50%;" class="pic" /><h1>John Musa</h1>      
+        
         <ion-card-subtitle>number plate :  ABJ 454 XJ</ion-card-subtitle>
-      </ion-card-header>
     
       <ion-card-content>
         vechicle name : Toyatto Corolla
       </ion-card-content>
     </ion-card>
-  <!-- </ion-content> -->
-  <!-- <ion-button>Canfirm Ride</ion-button> -->
+  <button class="bg"  style="position: fixed; bottom: 0; left: 0; right: 0;">Confirm Ride</button>
   
+
 
 
 
