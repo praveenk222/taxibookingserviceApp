@@ -34,8 +34,8 @@ const routes: Routes = [
   {  
     path:'destination',
     component:DestinationComponent
-  }
-  ,{
+  },
+  {
     path:'ridedetails',
     component:RidedetailsComponent
   }
