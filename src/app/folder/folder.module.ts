@@ -11,6 +11,7 @@ import { ChooserideComponent } from './chooseride/chooseride.component';
 import { HomeComponent } from './home/home.component';
 import { FindyourrideComponent } from '../findyourride/findyourride.component';
 import { ContinuerideComponent } from '../continueride/continueride.component';
+import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 import { WheretoComponent } from './whereto/whereto.component';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 import { DestinationComponent } from './destination/destination.component';
@@ -26,7 +27,9 @@ import { DestinationComponent } from './destination/destination.component';
     ContinuerideComponent,
     WheretoComponent,
     ConfirmpickupComponent,
-    DestinationComponent
+    DestinationComponent,
+    RidedetailsComponent
+
   ],
 
 

@@ -29,15 +29,14 @@ h2{
     font-size: 20px;
 
   }
-  ion-button{
+  .but-1{
     height: 40px;
     width: 260px;
-    --color:rgb(201, 89, 14);
-    --border-radius: 8px;
-    --border: 1px solid rgb(201, 89, 14);
+    color:rgb(201, 89, 14);
+    border-radius: 5px;
+    border: 1px solid rgb(201, 89, 14);
     margin:40px;
     font-size: 20px;
-    --background-color: transparent !important;
 
 
   }

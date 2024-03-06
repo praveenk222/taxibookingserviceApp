@@ -8,6 +8,7 @@ import { ContinuerideComponent } from '../continueride/continueride.component';
 import { WheretoComponent } from './whereto/whereto.component';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 import { DestinationComponent } from './destination/destination.component';
+import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 
 const routes: Routes = [
   {
@@ -34,6 +35,11 @@ const routes: Routes = [
     path:'destination',
     component:DestinationComponent
   }
+  ,{
+    path:'ridedetails',
+    component:RidedetailsComponent
+  }
+
 ];
 
 @NgModule({
