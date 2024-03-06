@@ -20,8 +20,6 @@ import { MAT_SNACK_BAR_DEFAULT_OPTIONS } from '@angular/material/snack-bar';
     HttpClientModule,
     IonicStorageModule.forRoot({ name: "mylocaldb" }),
     BrowserAnimationsModule,
-   
-    
     ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },MatDatepickerModule,
     { provide: MAT_SNACK_BAR_DEFAULT_OPTIONS, useValue: { duration: 3000 ,    horizontalPosition: 'end',

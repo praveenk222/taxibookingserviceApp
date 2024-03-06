@@ -27,7 +27,6 @@ import { DestinationComponent } from './destination/destination.component';
     WheretoComponent,
     ConfirmpickupComponent,
     DestinationComponent
-
   ],
 
 

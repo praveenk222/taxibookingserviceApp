@@ -26,6 +26,23 @@ capacitor-google-map{
   ion-card-content {
     color: #666; 
     font-size: 1rem; 
+    background-color: #f4f4f4; /* Set the background color */
+    border-radius: 10px; /* Set the border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    padding: 10px; /* Add padding */
+  }
+
+  /* Style the card title */
+  ion-card-title {
+    color: #333; /* Set the text color */
+    font-size: 1.2rem; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+  }
+  
+  /* Style the card content */
+  ion-card-content {
+    color: #666; /* Set the text color */
+    font-size: 1rem; /* Set the font size */
     margin-bottom: 50px;
     
   }
