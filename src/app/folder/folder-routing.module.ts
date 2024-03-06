@@ -9,6 +9,7 @@ import { WheretoComponent } from './whereto/whereto.component';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 import { DestinationComponent } from './destination/destination.component';
 import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
+import { SolorideComponent } from '../soloride/soloride.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,10 @@ const routes: Routes = [
   {
     path:'ridedetails',
     component:RidedetailsComponent
+  },
+  {
+    path:'soloride',
+    component:SolorideComponent
   }
 
 ];
