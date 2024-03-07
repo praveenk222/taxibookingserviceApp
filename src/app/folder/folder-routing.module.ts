@@ -9,6 +9,8 @@ import { WheretoComponent } from './whereto/whereto.component';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 import { DestinationComponent } from './destination/destination.component';
 import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
+import { FareComponent } from './fare/fare.component';
+import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   {
@@ -28,7 +30,7 @@ const routes: Routes = [
     component:ConfirmpickupComponent
   },
   {  
-    path:'',
+    path:'chooseride',
     component:ChooserideComponent
   },
   {  
@@ -38,7 +40,16 @@ const routes: Routes = [
   ,{
     path:'ridedetails',
     component:RidedetailsComponent
+  },
+  {
+    path:'fare',
+    component:FareComponent
+  },
+  {
+    path:'user',
+    component:UserComponent
   }
+
 
 ];
 

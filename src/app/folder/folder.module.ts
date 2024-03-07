@@ -15,6 +15,8 @@ import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 import { WheretoComponent } from './whereto/whereto.component';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 import { DestinationComponent } from './destination/destination.component';
+import { FareComponent } from './fare/fare.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   imports: [
@@ -28,7 +30,9 @@ import { DestinationComponent } from './destination/destination.component';
     WheretoComponent,
     ConfirmpickupComponent,
     DestinationComponent,
-    RidedetailsComponent
+    RidedetailsComponent,
+    FareComponent,
+    UserComponent
 
   ],
 
