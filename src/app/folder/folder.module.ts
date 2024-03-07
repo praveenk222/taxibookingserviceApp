@@ -17,6 +17,7 @@ import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component'
 import { DestinationComponent } from './destination/destination.component';
 import { FareComponent } from './fare/fare.component';
 import { UserComponent } from './user/user.component';
+import { SolorideComponent } from '../soloride/soloride.component';
 
 @NgModule({
   imports: [
@@ -32,7 +33,8 @@ import { UserComponent } from './user/user.component';
     DestinationComponent,
     RidedetailsComponent,
     FareComponent,
-    UserComponent
+    UserComponent,
+    SolorideComponent
 
   ],
 

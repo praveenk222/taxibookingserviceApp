@@ -11,6 +11,7 @@ import { DestinationComponent } from './destination/destination.component';
 import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 import { FareComponent } from './fare/fare.component';
 import { UserComponent } from './user/user.component';
+import { SolorideComponent } from '../soloride/soloride.component';
 
 const routes: Routes = [
   {
@@ -36,8 +37,8 @@ const routes: Routes = [
   {  
     path:'destination',
     component:DestinationComponent
-  }
-  ,{
+  },
+  {
     path:'ridedetails',
     component:RidedetailsComponent
   },
@@ -48,6 +49,10 @@ const routes: Routes = [
   {
     path:'user',
     component:UserComponent
+  },
+    {
+      path:'soloride',
+    component:SolorideComponent
   }
 
 
