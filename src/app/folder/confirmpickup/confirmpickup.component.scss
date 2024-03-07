@@ -14,35 +14,23 @@ capacitor-google-map{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     padding: 10px; 
   }
+.ion-card-content {
+    color: #666; 
+    font-size: 1rem; 
+    background-color: #f4f4f4; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px; 
+  }
 
-  
-  ion-card-title {
+  .ion-card-title {
     color: #333; 
     font-size: 1.2rem; 
     font-weight: bold; 
   }
-  
- 
-  ion-card-content {
+  .ion-card-content {
     color: #666; 
     font-size: 1rem; 
-    background-color: #f4f4f4; /* Set the background color */
-    border-radius: 10px; /* Set the border radius */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
-    padding: 10px; /* Add padding */
-  }
-
-  /* Style the card title */
-  ion-card-title {
-    color: #333; /* Set the text color */
-    font-size: 1.2rem; /* Set the font size */
-    font-weight: bold; /* Set the font weight */
-  }
-  
-  /* Style the card content */
-  ion-card-content {
-    color: #666; /* Set the text color */
-    font-size: 1rem; /* Set the font size */
     margin-bottom: 50px;
     
   }
@@ -55,11 +43,7 @@ capacitor-google-map{
     font-size: 20px;
     cursor: pointer;
   }
- 
-
-
-
-$custom-radio-color: rgba(27, 73, 27, 0.354); 
+ $custom-radio-color: rgba(27, 73, 27, 0.354); 
 
 ion-radio {
   --color: $custom-radio-color;

@@ -1,5 +1,5 @@
 capacitor-google-map{
-    width: 250%;
+    width: 350%;
     height: 450px;
 }
   .ion-card{
@@ -15,7 +15,7 @@ capacitor-google-map{
       font-size:20px;   
     }
     p{
-      font-size:20px;
+      font-size:17px;
     }
 .middle{
   text-align: center;
@@ -27,29 +27,31 @@ capacitor-google-map{
     margin-left: 40px;
   }
 
-   h1{
-    text-align: center;
-  }
-  h1{
-    text-align: center;
-}
-.ion-icon{
-    margin-bottom:-50px;
-    margin-left: 80px;
-}
-h2{
-    text-align: center;
-}
-p{
-    text-align: center;
-    margin-bottom: -30px;
-}
 .square-checkbox {
  margin-top:30px ;
   margin-left: 50px;
 }
-.refresh-outline{
-  margin-top: 30px;
-  margin-right: 50px;
+.Wh{
+  margin:0px 100px;
+  height: 150px;
+  width: 250px;
+  border: none;
+  
 }
 
+.card-content {
+  display: flex;
+  align-items: center; 
+  margin: 0px 50px;
+  
+}
+
+.reload { 
+  height:30px ;
+  width: 30px;
+}
+
+.content {
+  flex: 1; 
+  margin-left: 30px;
+}
