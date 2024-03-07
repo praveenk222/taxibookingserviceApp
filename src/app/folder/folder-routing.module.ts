@@ -11,6 +11,7 @@ import { DestinationComponent } from './destination/destination.component';
 import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 import { SearchComponent } from './search/search.component';
 import { CoridesComponent } from './corides/corides.component';
+import { SolorideComponent } from '../soloride/soloride.component';
 
 const routes: Routes = [
   // {
@@ -37,18 +38,30 @@ const routes: Routes = [
     path:'corides',
     component:CoridesComponent
   },
-  // {  
-  //   path:'',
-  //   component:ChooserideComponent
-  // },
-  // {  
-  //   path:'destination',
-  //   component:DestinationComponent
-  // }
-  // ,{
-  //   path:'ridedetails',
-  //   component:RidedetailsComponent
-  // }
+  {  
+    path:'location',
+    component:WheretoComponent
+  },
+  {  
+    path:'confirmpickup',
+    component:ConfirmpickupComponent
+  },
+  {  
+    path:'',
+    component:ChooserideComponent
+  },
+  {  
+    path:'destination',
+    component:DestinationComponent
+  },
+  {
+    path:'ridedetails',
+    component:RidedetailsComponent
+  },
+  {
+    path:'soloride',
+    component:SolorideComponent
+  }
 
 ];
 
