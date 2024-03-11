@@ -18,6 +18,8 @@ import { DestinationComponent } from './destination/destination.component';
 import { SearchComponent } from './search/search.component';
 import { CoridesComponent } from './corides/corides.component';
 import { SolorideComponent } from '../soloride/soloride.component';
+import { RidebookedComponent } from './ridebooked/ridebooked.component';
+import { SchedulerideComponent } from './scheduleride/scheduleride.component';
 
 @NgModule({
   imports: [
@@ -34,6 +36,8 @@ import { SolorideComponent } from '../soloride/soloride.component';
     RidedetailsComponent,
     SearchComponent,
     CoridesComponent,
+    RidebookedComponent,
+    SchedulerideComponent,
     SolorideComponent
 
   ],

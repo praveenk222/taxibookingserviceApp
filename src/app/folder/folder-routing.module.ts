@@ -12,6 +12,8 @@ import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 import { SearchComponent } from './search/search.component';
 import { CoridesComponent } from './corides/corides.component';
 import { SolorideComponent } from '../soloride/soloride.component';
+import { RidebookedComponent } from './ridebooked/ridebooked.component';
+import { SchedulerideComponent } from './scheduleride/scheduleride.component';
 
 const routes: Routes = [
   // {
@@ -30,16 +32,16 @@ const routes: Routes = [
   //   path:'confirmpickup',
   //   component:ConfirmpickupComponent
   // },
-  // {  
-  //   path:'search',
-  //   component:SearchComponent
-  // },
+  {  
+    path:'search',
+    component:SearchComponent
+  },
   {  
     path:'corides',
     component:CoridesComponent
   },
   {  
-    path:'location',
+    path:'whereto',
     component:WheretoComponent
   },
   {  
@@ -47,21 +49,29 @@ const routes: Routes = [
     component:ConfirmpickupComponent
   },
   {  
-    path:'',
-    component:ChooserideComponent
+    path:'ridebooked',
+    component:RidebookedComponent
   },
   {  
-    path:'destination',
-    component:DestinationComponent
+    path:'scheduleride',
+    component:SchedulerideComponent
   },
-  {
-    path:'ridedetails',
-    component:RidedetailsComponent
-  },
-  {
-    path:'soloride',
-    component:SolorideComponent
-  }
+  // {  
+  //   path:'',
+  //   component:ChooserideComponent
+  // },
+  // {  
+  //   path:'destination',
+  //   component:DestinationComponent
+  // },
+  // {
+  //   path:'ridedetails',
+  //   component:RidedetailsComponent
+  // },
+  // {
+  //   path:'soloride',
+  //   component:SolorideComponent
+  // }
 
 ];
 
