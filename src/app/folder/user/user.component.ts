@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import Swiper from 'swiper';
+
 
 @Component({
   selector: 'app-user',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent  implements OnInit {
   
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {}
 
