@@ -16,6 +16,8 @@ import { WheretoComponent } from './whereto/whereto.component';
 import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component';
 import { DestinationComponent } from './destination/destination.component';
 import { SolorideComponent } from '../soloride/soloride.component';
+import { VehiclesearchComponent } from './vehiclesearch/vehiclesearch.component';
+import { OntripComponent } from './ontrip/ontrip.component';
 
 @NgModule({
   imports: [
@@ -30,7 +32,9 @@ import { SolorideComponent } from '../soloride/soloride.component';
     ConfirmpickupComponent,
     DestinationComponent,
     RidedetailsComponent,
-    SolorideComponent
+    SolorideComponent,
+    VehiclesearchComponent,
+    OntripComponent
 
   ],
 

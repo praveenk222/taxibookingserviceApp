@@ -10,6 +10,8 @@ import { ConfirmpickupComponent } from './confirmpickup/confirmpickup.component'
 import { DestinationComponent } from './destination/destination.component';
 import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 import { SolorideComponent } from '../soloride/soloride.component';
+import { VehiclesearchComponent } from './vehiclesearch/vehiclesearch.component';
+import { OntripComponent } from './ontrip/ontrip.component';
 
 const routes: Routes = [
   {
@@ -43,7 +45,16 @@ const routes: Routes = [
   {
     path:'soloride',
     component:SolorideComponent
+  },
+  {
+    path:'vehiclesearch',
+    component:VehiclesearchComponent
+  },
+  {
+    path:'ontrip',
+    component:OntripComponent
   }
+
 
 ];
 
