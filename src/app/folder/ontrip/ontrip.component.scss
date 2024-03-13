@@ -51,10 +51,7 @@ h1{
 }
 .img{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    column-gap: 500px;
-   
+    flex-wrap: wrap;  
 }
 
 .call{
@@ -62,7 +59,7 @@ h1{
 }
 .msg{
     margin-left: 30px;
-
+ 
 }
 
 

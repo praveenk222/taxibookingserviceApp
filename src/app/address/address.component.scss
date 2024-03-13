@@ -1,0 +1,87 @@
+h1{
+    margin: 30px;
+    font-size: 30px;
+}
+
+.name{
+    width: 350px;
+    height: 60px;
+    border: 1px solid black;
+}
+.address{
+    width: 350px;
+    height: 90px;
+    border: 1px solid black;
+}
+.pin{
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+}
+.card-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 5px;
+    margin: 0px 22px;
+}
+.btn{
+    width: 100px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.btn-1{
+    width: 100px;
+    height: 45px;
+    background-color: black;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 20px;
+
+}
+.Address{
+    margin: 0px 20px;
+}
+p{
+    font-size: 20px;
+    padding: 12px;
+}
+h3{
+    margin:0px 30px;
+    font-size: 20px;
+}
+.btn-2{
+    width: 350px;
+    height: 40px;
+    margin: 0px 20px;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-3{
+    width: 350px;
+    height: 40px;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+.city{
+    width: 250px;
+    height:50px ;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.state{
+    width: 250px;
+    height:50px ;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+}
+.arrow{
+    width: 30px;
+    height: 30px;
+    margin:10px 30px;
+}

@@ -18,6 +18,8 @@ import { DestinationComponent } from './destination/destination.component';
 import { SolorideComponent } from '../soloride/soloride.component';
 import { VehiclesearchComponent } from './vehiclesearch/vehiclesearch.component';
 import { OntripComponent } from './ontrip/ontrip.component';
+import { AddressComponent } from '../address/address.component';
+
 
 @NgModule({
   imports: [
@@ -34,7 +36,9 @@ import { OntripComponent } from './ontrip/ontrip.component';
     RidedetailsComponent,
     SolorideComponent,
     VehiclesearchComponent,
-    OntripComponent
+    OntripComponent,
+    AddressComponent
+  
 
   ],
 

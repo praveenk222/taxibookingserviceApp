@@ -12,6 +12,8 @@ import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 import { SolorideComponent } from '../soloride/soloride.component';
 import { VehiclesearchComponent } from './vehiclesearch/vehiclesearch.component';
 import { OntripComponent } from './ontrip/ontrip.component';
+import { AddressComponent } from '../address/address.component';
+
 
 const routes: Routes = [
   {
@@ -53,7 +55,12 @@ const routes: Routes = [
   {
     path:'ontrip',
     component:OntripComponent
+  },
+  {
+    path:'address',
+    component:AddressComponent
   }
+  
 
 
 ];
