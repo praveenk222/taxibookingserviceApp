@@ -12,6 +12,7 @@ import { RidedetailsComponent } from '../ridedetails/ridedetails.component';
 import { FareComponent } from './fare/fare.component';
 import { UserComponent } from './user/user.component';
 import { SolorideComponent } from '../soloride/soloride.component';
+import { AddressComponent } from './address/address.component';
 
 const routes: Routes = [
   {
@@ -53,7 +54,11 @@ const routes: Routes = [
     {
       path:'soloride',
     component:SolorideComponent
-  }
+  },
+  {
+    path:'address',
+  component:AddressComponent
+}
 
 
 ];
