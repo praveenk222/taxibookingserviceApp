@@ -1,29 +1,18 @@
 capacitor-google-map{
     width: 100%;
-    height: 350px;
+    height: 450px;
     position: fixed;
 }
-.h1{
-    margin-bottom: 300px;
-    margin-right: 20px;
-}
-p{
-   
-    margin-right: 50px;
-    margin-top: 30px;
-   font-size: 15px;
-}
 .btn{
-    border-radius: 25px;
+    border-radius: 20px;
     height:40px;
-    width:120px;
+    width:100px;
     background-color: rgb(137, 133, 133);
     color: #fff;
-    font-size: 20px;
-    margin-left: 250px;   
+    font-size: 15px;
+    margin-left: 50px;   
     
 }
-.bar{
-    width: 120px;
-    margin: 40px 120px;
+p{
+    font-weight: lighter;
 }
