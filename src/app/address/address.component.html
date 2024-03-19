@@ -9,27 +9,33 @@
 <ion-card class="address">
   <p>185,13th main,Brigade Road,Bangalore,India</p>
 </ion-card>
-<ion-card-content class="abc">
-<h3>State</h3>
-<ion-list>
-  <ion-item>
-    <ion-select aria-label="" value="select" class="state">
-      <ion-select-option value="Telangana">Telangana</ion-select-option>
-      <ion-select-option value="Andrapradesh">Andrapradesh</ion-select-option>
-      <ion-select-option value="Bangalore">Bangalore</ion-select-option>
-    </ion-select>
-  </ion-item>
-</ion-list>
-  <h3>City</h3>
-  <ion-list>
+
+<ion-card-content class="abc"> 
+<ion-grid>
+  <ion-row>
+    <ion-col> <ion-list>
+      <h3>State</h3>
+      <ion-item>
+        <ion-select aria-label="" value="select"  class="state">
+          <ion-select-option value="Telangana">Telangana</ion-select-option>
+          <ion-select-option value="Andrapradesh">Andrapradesh</ion-select-option>
+          <ion-select-option value="Bangalore">Bangalore</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list> </ion-col>
+    <ion-col> <ion-list>
+    <h3>City</h3>
     <ion-item>
+      
       <ion-select aria-label="" value="select" class="city">
         <ion-select-option value="Hydrabad">Hydrabad</ion-select-option>
         <ion-select-option value="warangal">warangal</ion-select-option>
         <ion-select-option value="hanamkonda">hanamkonda</ion-select-option>
       </ion-select>
     </ion-item>
-  </ion-list>
+  </ion-list> </ion-col>
+  </ion-row>
+</ion-grid>
 </ion-card-content>
 <h3>Pincode</h3>
 <ion-card class="pin">
@@ -38,7 +44,6 @@
 </ion-card-content>
 <h3>Type</h3>
 <ion-card-content class="card-3">
-  
   <button class="btn-1">Home</button>
   <button class="btn">Work</button>
   <button class="btn">Others</button>
