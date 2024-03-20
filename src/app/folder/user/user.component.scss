@@ -12,4 +12,32 @@ p{
 h2{
     font-size: medium;
     font-weight: 900;
+    font-variant: small-caps;
 }
+swiper-container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-image {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: -50px;
+  }
+  ion-row.ion-justify-content-center {
+    display: flex;
+    justify-content: center;
+  }
+  a{
+    color: #CB4335;
+  }
+  
+  

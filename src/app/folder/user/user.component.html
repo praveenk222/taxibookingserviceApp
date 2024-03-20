@@ -9,24 +9,24 @@
     <h4>Your Location</h4>
 </ion-card> 
 <ion-item> 
-  <h2>|Services</h2>
-  <h6 slot="end">See all</h6>
+  <h2>Services</h2>
+  <h6 slot="end"><a href="" style="text-decoration: none; cursor: pointer;">See all</a></h6>
   </ion-item>
   <ion-item style="white-space: nowrap; overflow-x: auto; width: 100%;">
     <img alt="Silhouette of mountains" src="https://cdn-icons-png.flaticon.com/128/6009/6009214.png" style="width: 60px;height: 60px;border-radius: 50%; margin-left: 15px; "/>
-    <p>Rent</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p>Rent</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img alt="Silhouette of mountains" src="/assets/taxi-app.png" style="width: 60px;height: 60px;border-radius: 50%; margin-left: 15px;"/>
-    <p>Booking</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p>Booking</p>
     <img alt="Silhouette of mountains" src="https://st2.depositphotos.com/2172301/6729/v/950/depositphotos_67294905-stock-illustration-concept-logo-of-wedding-agency.jpg" style="width: 80px;height: 90px;border-radius: 50%; margin-left: 15px;"/>
     <p>Wedding <br>
-      Cars</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Cars</p>
     <img alt="Silhouette of mountains" src="/assets/trade.png" style="width: 60px;height: 60px;border-radius: 50%; margin-left: 15px;"/>
     <p>Car<br>
-    Sale</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Sale</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img alt="Silhouette of mountains" src="/assets/exchange.png" style="width: 60px;height: 60px;border-radius: 50%; margin-left: 15px;"/>
     <p>Exchange</p>
   </ion-item>
-  <ion-item>
+  <!-- <ion-item>
     <h2>|Speacial deals:</h2>
     <h6 slot="end">See all</h6>
     </ion-item>
@@ -61,8 +61,67 @@
     <ion-card-content>50%0ffer</ion-card-content>
     <img src="https://media.zigcdn.com/media/model/2022/Sep/audi_a4_2022_360x240.jpg" alt="Image Description" style="height:100px; width: 150px;"><ion-card-content><h2>Audi A6</h2></ion-card-content>
   </ion-card>
-  </ion-item>
-<ion-tabs>
+  </ion-item> -->
+  <ion-item>
+    <h2>Speacial deals:</h2>
+    <h6 slot="end"><a href="" style="text-decoration: none; cursor: pointer;">See all</a></h6>
+    </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card >
+        <h2>50%0ffer</h2>
+          <img src="https://media.zigcdn.com/media/model/2022/Sep/audi_a4_2022_360x240.jpg" alt="">
+          <h3>Audi</h3>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <h2>50%0ffer</h2>
+            <img src="https://media.zigcdn.com/media/model/2022/Sep/audi_a4_2022_360x240.jpg" alt="">
+            <h3>Audi</h3>
+          </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <h2>50%0ffer</h2>
+            <img src="https://media.zigcdn.com/media/model/2022/Sep/audi_a4_2022_360x240.jpg" alt="">
+            <h3>Audi</h3>
+          </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-item>
+    <h2>Hot deals:</h2>
+    <h6 slot="end"><a href="" style="text-decoration: none; cursor: pointer;">See all</a></h6>
+    </ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card >
+          <h2>50%0ffer</h2>
+            <img src="https://media.zigcdn.com/media/model/2022/Sep/audi_a4_2022_360x240.jpg" alt="">
+            <h3>Audi</h3>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <h2>50%0ffer</h2>
+              <img src="https://media.zigcdn.com/media/model/2022/Sep/audi_a4_2022_360x240.jpg" alt="">
+              <h3>Audi</h3>
+            </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <h2>50%0ffer</h2>
+              <img src="https://media.zigcdn.com/media/model/2022/Sep/audi_a4_2022_360x240.jpg" alt="">
+              <h3>Audi</h3>
+            </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-item>
+  <ion-tabs>
   <ion-tab-bar slot="bottom">
     <ion-tab-button tab="home">
       <ion-icon name="home-outline"></ion-icon>
@@ -84,3 +143,9 @@
 </ion-tabs>
  
  
+  <!-- <swiper-container >
+  <ng-template swiperSlide *ngFor="let s of sliderOne.slidesItems">
+	<img src="https://picsum.photos/300/200?t={{s.id}}" />
+	<div class="slide-text"><span>Slide id {{s.id}}</span></div>
+  </ng-template>
+</swiper-container> -->

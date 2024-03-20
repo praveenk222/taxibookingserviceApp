@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import Swiper from 'swiper';
-
-
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
